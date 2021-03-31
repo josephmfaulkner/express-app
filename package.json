@@ -1,17 +1,23 @@
 {
   "name": "express-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Express JS API",
   "engines": {
     "node": "14.x"
   },
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josephmfaulkner/express-app.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "license": "MIT"
 }

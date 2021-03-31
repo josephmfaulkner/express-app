@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/josephmfaulkner/express-app.git"
+    "url": "https://github.com/josephmfaulkner/express-app"
   },
   "keywords": [
     "express"

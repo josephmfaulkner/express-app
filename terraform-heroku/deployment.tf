@@ -2,7 +2,7 @@
 resource "heroku_build" "example" {
   app        = "${heroku_app.staging.name}"
   source {
-    url     = "https://github.com/josephmfaulkner/express-app/archive/refs/tags/removedExtraFiles.tar.gz"
+    url     = "https://github.com/josephmfaulkner/express-app/archive/refs/tags/0.0.1.tar.gz"
   }
 }
 

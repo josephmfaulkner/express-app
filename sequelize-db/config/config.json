@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "user",
+    "password": "password",
+    "database": "appdatabase",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "migrationStorageTableName": "sequelize_migrations",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelize_seed_data"
+  },
+  "testing": {
+    "username": "user",
+    "password": "password",
+    "database": "appdatabase",
+    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "migrationStorageTableName": "sequelize_migrations",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelize_seed_data"
+  },
+  "production": {
+    "username": "user",
+    "password": "password",
+    "database": "appdatabase",
+    "host": "127.0.0.1",
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "migrationStorageTableName": "sequelize_migrations",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelize_seed_data"
+  }
+}
+

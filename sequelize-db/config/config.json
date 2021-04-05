@@ -18,7 +18,9 @@
     "database": "appdatabase",
     "host": "127.0.0.1",
     "dialectOptions": {
-      "ssl": true
+      "ssl": {
+        "rejectUnauthorized": false
+      }
     },
     "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
@@ -32,7 +34,9 @@
     "database": "appdatabase",
     "host": "127.0.0.1",
     "dialectOptions": {
-      "ssl": true
+      "ssl": {
+        "rejectUnauthorized": false
+      }
     },
     "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
